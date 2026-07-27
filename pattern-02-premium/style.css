@@ -26,7 +26,7 @@
 .premium .service-grid { grid-template-columns:repeat(2,1fr); }
 .premium .service-grid .card { min-height:250px; }
 .premium .reason-grid { display:flex; gap:0; background:transparent; border:1px solid var(--accent); align-items:stretch; }
-.premium .reason-grid .card { flex:1; border-right:1px solid var(--accent); }
+.premium .reason-grid .card { flex:1; height:auto; align-self:stretch; border-right:1px solid var(--accent); }
 .premium .reason-grid .card:last-child { border-right:0; }
 .premium .contact { background:#050f1e; }
 .premium .section--story { background:#07182e; color:#fff; }

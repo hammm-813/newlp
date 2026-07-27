@@ -7,7 +7,7 @@
 .warm-family .hero h1 em { display:inline-block; background:#fff; padding:0 .12em; border-radius:18px; }
 .warm-family .hero h1 { font-size:clamp(54px,5.3vw,86px); }
 .warm-family .hero__team { align-self:end; background:rgba(255,255,255,.94); border:1px solid rgba(167,122,67,.28); border-radius:28px; padding:72px 32px 0; box-shadow:0 24px 70px rgba(36,91,74,.14); backdrop-filter:blur(10px); }
-.warm-family .hero__team::before { width:180px; height:180px; border-radius:50%; inset:auto auto -60px -60px; background:#dfe8d9; }
+.warm-family .hero__team::before { display:none; }
 .warm-family .hero__team .staff-card { border-radius:18px; border-color:rgba(36,91,74,.14); box-shadow:0 12px 28px rgba(36,91,74,.1); }
 .warm-family .hero__team .staff-card__media { filter:saturate(.88) brightness(1.03); }
 .warm-family .hero__note { color:#486b5e; }
