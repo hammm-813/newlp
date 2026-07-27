@@ -18,8 +18,8 @@
 .modern-trust .card { box-shadow:0 12px 36px rgba(11,36,71,.04); }
 .modern-trust .problem-grid .card { border-color:rgba(11,36,71,.1); }
 .modern-trust .section--services .service-grid { grid-template-columns:1fr 1fr 1fr; }
-.modern-trust .section--solution { background:linear-gradient(90deg,#0b2447 0 22%,#f3f6f8 22%); }
-.modern-trust .section--solution .section__head { margin-left:22%; }
+.modern-trust .section--solution { background:var(--wash); }
+.modern-trust .section--solution .section__head { margin-left:0; }
 .modern-trust .section--steps .section__head { margin-left:auto; text-align:right; }
 @media(max-width:900px){.modern-trust .hero{grid-template-columns:1fr;background:#071a33}.modern-trust .hero::before{background:linear-gradient(#071a33 0 62%,#f5f1e8 62%)}.modern-trust .hero__photo{inset:61% 0 0;opacity:.6}.modern-trust .hero__team{margin-top:36px}.modern-trust .problem-grid .card{transform:none!important}}
 @media(max-width:560px){.modern-trust .hero::before{background:linear-gradient(#071a33 0 70%,#f5f1e8 70%)}.modern-trust .hero__photo{inset:68% 0 0}.modern-trust .section--solution{background:#f3f6f8}.modern-trust .section--solution .section__head{margin-left:0}}

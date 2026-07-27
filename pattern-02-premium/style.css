@@ -25,13 +25,14 @@
 .premium .flow__box { min-height:260px; }
 .premium .service-grid { grid-template-columns:repeat(2,1fr); }
 .premium .service-grid .card { min-height:250px; }
-.premium .reason-grid { display:flex; overflow:hidden; gap:1px; background:var(--accent); }
-.premium .reason-grid .card { flex:1; }
+.premium .reason-grid { display:flex; gap:0; background:transparent; border:1px solid var(--accent); align-items:stretch; }
+.premium .reason-grid .card { flex:1; border-right:1px solid var(--accent); }
+.premium .reason-grid .card:last-child { border-right:0; }
 .premium .contact { background:#050f1e; }
 .premium .section--story { background:#07182e; color:#fff; }
 .premium .section--story .story__text p { color:#d8dde4; }
 .premium .section--story .story__visual { background:transparent; border:1px solid var(--accent); }
 .premium .section--cases .case { border:0; border-top:1px solid var(--accent); }
 .premium .plans { gap:1px; background:rgba(185,149,85,.55); }
-@media(max-width:900px){.premium .hero{grid-template-columns:1fr;padding-top:54px}.premium .hero::before{background:linear-gradient(var(--ink) 0 56%,transparent 56%)}.premium .hero__photo{inset:56% 0 0}.premium .hero__team{margin-top:40px}.premium .reason-grid{display:grid;grid-template-columns:1fr 1fr}.premium .problem-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.premium .hero{grid-template-columns:1fr;padding-top:54px}.premium .hero::before{background:linear-gradient(var(--ink) 0 56%,transparent 56%)}.premium .hero__photo{inset:56% 0 0}.premium .hero__team{margin-top:40px}.premium .reason-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;border:0}.premium .reason-grid .card,.premium .reason-grid .card:last-child{border:1px solid var(--accent)}.premium .problem-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.premium .hero::before{background:linear-gradient(var(--ink) 0 58%,transparent 58%)}.premium .problem-grid,.premium .reason-grid,.premium .service-grid{grid-template-columns:1fr}.premium .problem-grid .card{grid-template-columns:55px 1fr}}
